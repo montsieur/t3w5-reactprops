@@ -16,13 +16,11 @@ let foods = [
 export default function FoodList(){
     return (
         <section>
-            <ul>
                 {
-                    foods.map(food => {
-                        return <li><FoodCard foodName={food}/></li>
+                    foods.map((food, index) => {
+                        return <p><FoodCard key={index} foodName={food}/></p>
                     })
                 }
-            </ul>
         </section>
     )
 }
