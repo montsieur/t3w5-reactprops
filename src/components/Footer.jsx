@@ -1,5 +1,7 @@
-export default function Footer(){
+export default function Header(){
     return (
-        <p><b>CoderAcademy 2024.</b></p>
+        <h1>React Props Lesson</h1>
     )
 }
+
+// module.exports = Header;
